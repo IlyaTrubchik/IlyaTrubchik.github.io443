@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.languages{
+  display: flex;
+  flex-flow:row;
+  justify-content: space-between;
+  width: 200px;
+  background-color: #31b090;
+}
+.languages button{
+  padding-left: 15px;
+  background-color: #31b090;
+  font-family: "Roboto";
+  color:#9bebd7;
+  font-weight: 800;
+  font-size:16px;
+  border:none;
+}
+.languages button:hover{
+  font-size: 18px;
+text-decoration:underline;
+color:#217591;
+}
+
