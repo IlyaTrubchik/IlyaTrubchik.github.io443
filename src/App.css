@@ -3,6 +3,9 @@
   margin: 0%;
   background-color:#bcebdf;
 }
+body{
+  background-color:#bcebdf;
+}
 .header-container{
   height:50px;
   display: flex;
@@ -60,18 +63,19 @@ color:#217591;
 }
 .HumanOfDay{
   display: flex;
-  height:460px;
+  height:auto;
   flex-direction: row;
   justify-content: center;
   padding-top:20px;
   padding-bottom: 100px;
 }
 .Human{
-  width:30%;
+  width:auto;
   padding-top:20px;
   border-right: 2px solid #65af9d;; /* Параметры границы */
   background-color: #bcebdf;
   text-align: center;
+  height:auto;
   
 }
 .Human h1{
@@ -85,6 +89,7 @@ color:#217591;
   color:#217591;
 }
 .HumanDayInfo{
+
   width:20%;
   text-align: center;
   display: flex;
@@ -94,14 +99,13 @@ color:#217591;
   font-size:16px;
   padding-top:30px;
   color:#217591;
-  height: 420px;
 }
 .Image{
   display: flex;
   flex-flow:row;
   justify-content: center;
 }
-.DayPersonBtn{
+.DayPersonBtn button{
   border-radius: 30px;
   width:300px;
   background-color: #9bebd7;
@@ -117,7 +121,7 @@ color:#217591;
   -moz-box-shadow: 4px -3px 38px 2px rgba(33, 118, 103, 0.43);
   box-shadow: 4px -3px 38px 2px rgba(33, 118, 103, 0.43);
 }
-.DayPersonBtn:hover{
+.DayPersonBtn button:hover{
   background-color: #31b090;
   -webkit-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
   -moz-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
@@ -212,7 +216,7 @@ color:#217591;
   margin-left:5%;
 }
 .AboutSiteContainer{
-  height:100px;
+  height:auto;
   padding-top:40px;
   padding-bottom:40px;
   display: flex;
