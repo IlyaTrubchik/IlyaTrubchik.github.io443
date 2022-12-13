@@ -5,7 +5,7 @@ import { FormattedMessage } from "react-intl";
 
 class Back_button extends React.Component {
     onclick () {
-      window.location.assign('http://localhost:3000/');
+      window.location.assign('https://ilyatrubchik.github.io');
       sessionStorage.setItem("currx",sessionStorage.getItem("Ident"));
     }
 

@@ -18,7 +18,7 @@ console.log(x);
 sessionStorage.setItem("Ident",x+1);
 class OnSecondPageButton extends React.Component {
     onclick () {
-      window.location.assign("http://localhost:3000/"+(x+1));
+      window.location.assign("https://ilyatrubchik.github.io/"+(x+1));
       
     }
 
